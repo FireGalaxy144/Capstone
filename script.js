@@ -25,3 +25,36 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("fact-text").innerText = randomFact;
     });
 });
+
+document.getElementsByTagName("body")[0].style.cursor = "url('https://puu.sh/pD2Ti/1501ac33bd.cur'), auto";
+
+
+
+$('#cat').mousedown(function(){
+	$('.catbody').addClass('purr');
+  $('.head').addClass('purr2');
+  $('.eye').addClass('purreye');
+  $('.petme').hide();
+});
+
+$('#cat').mouseup(function(){
+	$('.catbody').removeClass('purr');
+  $('.head').removeClass('purr2');
+  $('.eye').removeClass('purreye');
+});
+
+$('#cat').touchstart(function(){
+	$('.catbody').addClass('purr');
+  $('.head').addClass('purr2');
+  $('.eye').addClass('purreye');
+});
+
+$('#cat').touchend(function(){
+	$('.catbody').removeClass('purr');
+  $('.head').removeClass('purr2');
+  $('.eye').removeClass('purreye');
+});
+                                      
+
+node = document.body;
+node.insertAdjacentHTML('afterend', '<p style="position:fixed; right:10px; bottom:80px; font-size:10px; color:#fff; text-transform:uppercase; max-width:100px; text-align:center; letter-spacing:3px;">From your friends at</p><a href="http://bigseadesign.com" style="position:fixed; bottom:0; right:10px; width:100px; height:80px; background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/383755/bigsealogo_bluegrey.png); background-size:contain; background-repeat:no-repeat;"></a>');
