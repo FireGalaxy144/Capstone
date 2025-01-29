@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.getElementById("loading-screen").style.display = "none";
         document.getElementById("main-content").style.display = "block";
-    }, 2000); // Adjust time as needed
+    }, 1000); // Adjust time as needed
 
     // Chatbot toggle
     const chatbotButton = document.getElementById("chatbot-button");
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.getElementsByTagName("body")[0].style.cursor = "url('https://puu.sh/pD2Ti/1501ac33bd.cur'), auto";
+
 
 
 
