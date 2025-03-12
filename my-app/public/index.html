@@ -1,43 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Species Prediction</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div id="loading-circle">
+            <div id="spinner"></div>
+        </div>
+        <p>About the Website: This site helps you learn about animal species through a virtual  interaction.</p>
+    </div>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- Main Content -->
+    <div id="main-content" style="display: none;">
+        <header>
+            <h1></h1>
+        </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    
+       
+            <div id="background-environment">
+                <!-- Placeholder for animal animation -->
+                <div id="animal-animation">🐾</div>
+            </div>
+        </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+       
+    </div>
+    
+
+    <div id="cat">
+    
+      <div class="head">
+        <div class="stripe">
+        </div>
+        <div class="stripe stripe2">
+        </div>
+        <div class="stripe stripe3">
+        </div>
+        <div class="ear1">
+        </div>
+        <div class="ear2">
+        </div>
+        <div class="eye1 eye">
+        </div>
+        <div class="eye2 eye">
+        </div>
+        <div class="nose">
+        </div>
+        <div class="mouth">
+          (
+          <span></span>
+          (
+        </div>
+      </div>
+    <div class="catbody">
+      <div class="stripe">
+      </div>
+      <div class="stripe mid">
+      </div>
+     <div class="stripe front">
+      </div>
+    </div>
+    <div class="paw paw1">
+    </div>
+    <div class="paw paw2">
+    </div>
+    <div class="paw paw3">
+    </div>
+    <div class="tail">
+    </div>
+    <div class="pillow">
+    </div>
+  </div>
+  
+
+    </div>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="gen-lang-client-0437507263"
+  agent-id="2fc5e183-9cfa-4e6e-a546-7e38808baa8a"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="chat">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc00;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+
+    <script src="script.js"></script>
+  
+</body>
 </html>
