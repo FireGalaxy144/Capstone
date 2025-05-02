@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Capstone/static/css/main.b0ef5950.css",
+    "main.js": "/Capstone/static/js/main.0d51cae9.js",
+    "static/js/453.ed3810f9.chunk.js": "/Capstone/static/js/453.ed3810f9.chunk.js",
+    "static/media/cozy-fireplace.jpg": "/Capstone/static/media/cozy-fireplace.c3580238d6581fd82bf3.jpg",
+    "index.html": "/Capstone/index.html",
+    "main.b0ef5950.css.map": "/Capstone/static/css/main.b0ef5950.css.map",
+    "main.0d51cae9.js.map": "/Capstone/static/js/main.0d51cae9.js.map",
+    "453.ed3810f9.chunk.js.map": "/Capstone/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0ef5950.css",
+    "static/js/main.0d51cae9.js"
+  ]
+}
